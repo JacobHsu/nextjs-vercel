@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 nextjs [setup](https://nextjs.org/learn/basics/create-nextjs-app/setup)  
 `npx create-next-app nextjs-vercel`
 
+[Deploy to Vercel](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy)
+
 ## Getting Started
 
 First, run the development server:
