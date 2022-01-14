@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -19,6 +20,10 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
+          or Navigate 
+          <Link href="/posts/first-post">
+             <a> first page!</a>
+          </Link>
         </p>
 
         <div className={styles.grid}>
