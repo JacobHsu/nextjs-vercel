@@ -24,6 +24,11 @@ export default function Home() {
           <Link href="/posts/first-post">
              <a> first page!</a>
           </Link>
+
+          or header
+          <Link href="/news/123">
+             <a><code className={styles.code}>[...slug]</code></a>
+          </Link>
         </p>
 
         <div className={styles.grid}>
